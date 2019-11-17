@@ -69,3 +69,7 @@ group :test do
     gem 'shoulda-matchers'
     gem 'rails-controller-testing'
 end
+
+group :production do
+  gem 'mysql2'
+end
